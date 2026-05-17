@@ -1,80 +1,89 @@
-<!-- Header -->
-<p align="center">
-  <img src="https://github.com/shreema01/Portfolio/blob/main/Portfolio.png" alt="Portfolio Banner">
-</p>
+# Personal Portfolio - Shreema Dey Purba
 
-<!-- Title -->
-<h1 align="center">Hi 👋, I'm [Shreema Dey Purba]</h1>
-<h3 align="center">[ Aspiring Computer Engineer | Web Development and DSA Completist| Practicing HTML, CSS, JavaScript, React & Node.JS]</h3>
+A modern, responsive portfolio website built with Next.js 16, TypeScript, and Tailwind CSS.
 
-<!-- Profile Views Badge -->
-<p align="left">
-  <img align="left" src="https://komarev.com/ghpvc/?username=your-username&label=Profile%20views&color=0e75b6&style=flat" alt="Your Profile Views" />
-</p>
+## Tech Stack
 
-<br>
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **UI Components:** shadcn/ui
+- **Icons:** Lucide React, React Icons
+- **Fonts:** Geist Sans & Geist Mono
 
-<!-- What I'm Currently Working On -->
-- 🔭 I’m currently working on [CSEHacks](#)
+## Features
 
-<!-- About Me -->
-- 🌱 I’m currently learning **[React JS]**
+- Dark/Light mode support
+- Responsive design for all screen sizes
+- Smooth scroll navigation
+- Animated skill progress bars
+- Contact form
+- Social media links
 
-- 👨‍💻 All of my projects are available at [Github](https://github.com/shreema01)
+## Getting Started
 
-- 📄 Know about my experiences [RESUME]( #)
+### Prerequisites
 
- 
+- Node.js 18.17 or later
+- npm, yarn, pnpm, or bun
 
- 
+### Installation
 
- 
+1. Clone the repository:
+```bash
+git clone https://github.com/shreema01/Personal-Portfolio.git
+cd Personal-Portfolio
+```
 
-<!-- Contact Section -->
-<h3 align="left">Contact:</h3>
-<p align="left">
-  <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/shreema01/" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-  </a>
-  
-  <!-- GitHub -->
-  <a href="https://github.com/shreema01" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="30" width="40" />
-  </a>
-  
-  <!-- Email -->
-  Email: [spurba001@rku.ac.in](mailto:spurba001@rku.ac.in)
-  
-  <!-- Contact Number -->
-  Call: +91 7069078661
-</p>
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
 
+3. Run the development server:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-<!-- Languages and Tools Section -->
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <!-- HTML Icon and Link -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
-  </a>
-  
-  <!-- CSS Icon and Link -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
-  </a>
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-  <!-- JavaScript Icon and Link -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-  </a>
+## Project Structure
 
-   <!-- React Icon and Link -->
-  <a href="https://reactjs.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"/>
-  </a>
-  
-  <!-- Add other languages and tools as needed -->
-</p>
+```
+├── app/
+│   ├── globals.css      # Global styles and CSS variables
+│   ├── layout.tsx       # Root layout with fonts and theme
+│   └── page.tsx         # Main page component
+├── components/
+│   ├── ui/              # shadcn/ui components
+│   ├── navbar.tsx       # Navigation component
+│   ├── hero.tsx         # Hero section
+│   ├── about.tsx        # About section
+│   ├── experience.tsx   # Experience timeline
+│   ├── projects.tsx     # Projects showcase
+│   ├── skills.tsx       # Skills with progress bars
+│   ├── contact.tsx      # Contact form
+│   └── footer.tsx       # Footer component
+├── public/
+│   └── images/          # Static images
+└── lib/
+    └── utils.ts         # Utility functions
+```
 
- 
+## Contact
+
+- **Email:** spurba001@rku.ac.in
+- **LinkedIn:** [shreema01](https://www.linkedin.com/in/shreema01/)
+- **GitHub:** [shreema01](https://github.com/shreema01)
+
+## License
+
+This project is open source and available under the MIT License.
